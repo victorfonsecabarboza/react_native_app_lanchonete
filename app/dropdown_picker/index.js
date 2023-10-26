@@ -51,17 +51,17 @@ const styles = StyleSheet.create({
     backgroundColor: 'white'
   },
   text: {
-    fontSize: 18,
+    fontSize: 16,
     width: 270,
     marginBottom: 50,
   },
   title: {
-    fontSize: 22,
+    fontSize: 20,
     textAlign: 'center',
     width: 300,
   },
   picker: {
-    fontSize: 18,
+    fontSize: 16,
     marginVertical: 30,
     width: 300,
     paddingBottom: 10,
@@ -69,9 +69,9 @@ const styles = StyleSheet.create({
     borderColor: "#666",
   },
   link: {
-    fontSize: 18,
+    fontSize: 17,
     color: 'white', // Altere para a cor do texto desejada
-    padding: 10,
+    padding: 5,
     borderRadius: 5,
     textAlign: 'center',
     width: '50%', // Ajuste a largura conforme necessário
