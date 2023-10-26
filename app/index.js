@@ -26,18 +26,18 @@ const styles = StyleSheet.create({
     marginBottom: 50,
   },
   announced: {
-    fontSize: 22,
+    fontSize: 18,
     textAlign: 'center',
     paddingBottom: 10,
   },
   link: {
     fontSize: 20,
     color: 'white', // Altere para a cor do texto desejada
-    padding: 10,
+    padding: 5,
     borderRadius: 5,
     textAlign: 'center',
-    width: '80%', // Ajuste a largura conforme necessário
-    marginBottom: 12,
+    width: '70%', // Ajuste a largura conforme necessário
+    marginBottom: 15,
     backgroundColor: '#3498db'
   },
 
