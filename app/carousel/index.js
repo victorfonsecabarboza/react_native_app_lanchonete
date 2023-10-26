@@ -79,10 +79,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   title: {
-    fontSize: 22,
+    fontSize: 20,
     textAlign: 'center',
     width: 350,
-    marginBottom: 15,
+    paddingBottom: 20,
   },
   cardContainer: {
     alignItems: 'center',
@@ -114,9 +114,9 @@ const styles = StyleSheet.create({
     paddingBottom: 2,
   },
   link: {
-    fontSize: 18,
+    fontSize: 17,
     color: 'white', // Altere para a cor do texto desejada
-    padding: 10,
+    padding: 5,
     borderRadius: 5,
     textAlign: 'center',
     width: '50%', // Ajuste a largura conforme necessário
