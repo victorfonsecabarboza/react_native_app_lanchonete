@@ -53,16 +53,16 @@ const styles = StyleSheet.create({
     marginTop: 100,
   },
     title: {
-    fontSize: 22,
+    fontSize: 20,
     textAlign: 'center',
     width: 320,
-    marginBottom: 15,
+    marginBottom: 10,
   },
   item: {
     padding: 10,
-    fontSize: 18,
+    fontSize: 16,
     marginVertical: 10,
-    marginHorizontal: 15,
+    marginHorizontal: 11,
     backgroundColor: '#e74c3c',
     height: 44,
     width: 300,
@@ -71,14 +71,14 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   link: {
-    fontSize: 18,
+    fontSize: 17,
     color: 'white', // Altere para a cor do texto desejada
-    padding: 10,
+    padding: 5,
     borderRadius: 5,
     textAlign: 'center',
     width: '50%', // Ajuste a largura conforme necessário
-    marginBottom: 70,
-    left: 80,
+    marginBottom: 140,
+    left: 75,
     backgroundColor: 'black',
   },
 });
