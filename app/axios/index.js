@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   title: {
-    fontSize: 22,
+    fontSize: 20,
     width: 300,
     textAlign: 'center',
     paddingBottom: 10,
@@ -86,12 +86,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   link: {
-    fontSize: 18,
+    fontSize: 17,
     color: 'white', // Altere para a cor do texto desejada
-    padding: 10,
+    padding: 5,
     borderRadius: 5,
     textAlign: 'center',
-    width: '60%', // Ajuste a largura conforme necessário
+    width: '50%', // Ajuste a largura conforme necessário
     marginTop: 20,
     backgroundColor: 'black'
   },
