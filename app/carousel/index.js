@@ -7,9 +7,9 @@ import { Link } from 'expo-router';
 const { width, height } = Dimensions.get('window');
 
 const DATA = [
-  'http://geogeral.com/i/m/b/brh01.jpg',
-  'http://geogeral.com/i/m/b/brh02.jpg',
-  'http://geogeral.com/i/m/b/brh03.jpg',
+  'http://s3-sa-east-1.amazonaws.com/deliveryon-uploads/products/traillerdoserginho/34_55c2ab9b72a92.png',
+  'http://romeniaburguer.recebi-pedidos.com.br/_core/_uploads/140/2022/09/1003280922dcej4fijeh.png',
+  'http://s3-sa-east-1.amazonaws.com/loja2/9c7209fb5568e1b0db378ff181d44ac6.png',
   'http://geogeral.com/i/m/b/brh04.jpg',
   'http://geogeral.com/i/m/b/brh05.jpg',
   'http://geogeral.com/i/m/b/brh06.jpg'
