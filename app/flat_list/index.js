@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   container: {
     justifyContent: 'center',
     flex: 1,
-    marginLeft: 30,
+    marginLeft: 40,
     marginTop: 100,
   },
     title: {
@@ -61,9 +61,9 @@ const styles = StyleSheet.create({
   item: {
     padding: 10,
     fontSize: 16,
-    marginVertical: 10,
+    marginVertical: 5,
     marginHorizontal: 11,
-    backgroundColor: '#e74c3c',
+    backgroundColor: '#3498db',
     height: 44,
     width: 300,
     color: 'white',
