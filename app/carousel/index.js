@@ -10,9 +10,9 @@ const DATA = [
   'http://s3-sa-east-1.amazonaws.com/deliveryon-uploads/products/traillerdoserginho/34_55c2ab9b72a92.png',
   'http://romeniaburguer.recebi-pedidos.com.br/_core/_uploads/140/2022/09/1003280922dcej4fijeh.png',
   'http://s3-sa-east-1.amazonaws.com/loja2/9c7209fb5568e1b0db378ff181d44ac6.png',
-  'http://geogeral.com/i/m/b/brh04.jpg',
-  'http://geogeral.com/i/m/b/brh05.jpg',
-  'http://geogeral.com/i/m/b/brh06.jpg'
+  'http://s3.us-west-2.amazonaws.com/whatsmenu/production/gansoburguer/products/126449/ovoequeijopng',
+  'http://scfoods.fbitsstatic.net/img/p/refrigerante-coca-cola-lata-350ml-71953/258602.jpg?w=800&h=800&v=no-change&qs=ignore',
+  'http://samsclub.vtexassets.com/arquivos/ids/158171-800-450?v=637433118370830000&width=800&height=450&aspect=true'
 ];
 
 const App = () => {
