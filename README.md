@@ -1,24 +1,22 @@
+<!-- ************************************* Logo ********************************************* -->
+<div align="center">
+  <img width="900px" alt="Logo" src="./assets/logo.png">
+</div>
+
+</br>
+
 <!-- ************************************* Título ********************************************* -->
 <h1> React Native com expo-router </h1>
 
-<!-- ************************************* Baadges ********************************************* -->
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/victorfonsecabarboza/react_native_app_lanchonete?color=%2304D361">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/victorfonsecabarboza/react_native_app_lanchonete">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/victorfonsecabarboza/react_native_app_lanchonete">
-</p>
-
-<p align="center" > Finalizado 31/10/2023 </p> 
-
 <!-- ************************************* Descrição ********************************************* -->
-## 🚀 Sobre o Projeto
+## Sobre o Projeto
 </br>
 
-Este projeto consiste  em um App de uma lanchonete para listar os produtos consumindo um JSON local, utilizando router para gerenciar a navegação entre telas , axios para fazer chamadas de API REST, e os componentes carousel, dropdown picker e flat list. Ao rodar o projeto, cada componente utilizado ira apresentar os produtos de diferentes formas.
+Este projeto consiste  em um App de uma lanchonete para listar os produtos consumindo um JSON Server de uma API Fake, utilizando router para gerenciar a navegação entre telas, axios para fazer chamadas da API REST, e os componentes carousel, dropdown picker e flat list. Ao rodar o projeto, cada componente utilizado ira apresentar os produtos de diferentes formas.
 
 </br>
 
-## 🛠️ Construído com
+## Construído com
 
 * [NodeJS](https://nodejs.org/en/) - Ambiente de execução Javascript
 * [Vs Code](https://code.visualstudio.com/) - IDE
@@ -29,14 +27,13 @@ Este projeto consiste  em um App de uma lanchonete para listar os produtos consu
 
 </br>
 
-<h3> 🎲 Rodando o Projeto</h3>
+<!-- ************************************* Rodar Projeto ********************************************* -->
+## Rodando o projeto
 
 - É Necessário : 
     - Ter o Expo Instalado no PC
     - Ter o Expo Instalado no Celular
-
-<!-- ************************************* Projeto ********************************************* -->
-
+    
 ```bash
 # Clone este repositório
 $ git clone https://github.com/victorfonsecabarboza/react_native_app_lanchonete.git
@@ -45,12 +42,25 @@ $ git clone https://github.com/victorfonsecabarboza/react_native_app_lanchonete.
 $ cd react_native_app_lanchonete
 
 # Baixar as dependências
-$ yarn install
-ou
 $ npm install
-
-# execute o comando
-$ yarn start
 ou
+$ yarn install
+
+# Instalar o axios
+$ npm install axios
+ou
+$ yarn add axios
+
+# Instalar o json-server
+$ npm install -g json-server
+ou
+$ yarn globall add json-server
+
+# Iniciar o servidor
+$ json-server --watch db.json
+
+# Iniciar o App
 $ npm start
+ou
+$ yarn start
 ```
